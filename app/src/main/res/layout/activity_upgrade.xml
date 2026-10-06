@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder layout for UpgradeActivity (spec §12).
+     The Activity builds its UI programmatically via buildLayout(); this file
+     satisfies any tooling that expects activity_upgrade.xml to exist. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a2e">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upgrade Screen"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>
